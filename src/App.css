@@ -1,0 +1,177 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: bisque;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  color: white;
+  overflow-y: hidden;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.left {
+  width: 40%;
+}
+
+.right {
+  width: 60%;
+  align-items: stretch;
+  align-items: center;
+}
+
+.content-box {
+  background-color: white;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 5px 5px 10px gray;
+  color: black;
+}
+
+.left-box {
+  width: 80%;
+  height: 40%;
+  margin: 15px;
+}
+
+.text-input {
+  resize: none;
+  border: none;
+  outline: none;
+  width: 80%;
+  height: 80%;
+  font: 15px Arial, sans-serif;
+}
+
+.text-display {
+  font-weight: bold;
+  box-sizing: border-box;
+  padding: 5%;
+}
+
+.text-button {
+  font: bold 16px Eurostyle;
+  padding: 5px;
+  background-color: orange;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px gray;
+  width: 60%;
+  min-width: 130px;
+  cursor: pointer;
+}
+
+.main-title {
+  position: absolute;
+  color: orange;
+  text-shadow: 1px 1px 1px black;
+  user-select: none;
+  top: -10px;
+}
+
+.sub-title {
+  position: absolute;
+  color: black;
+  user-select: none;
+  top: 30px;
+}
+
+.sub-title-link {
+  color: darkblue;
+  user-select: none;
+  font-weight: bold;
+  user-select: text;
+  font-size: larger;
+  text-decoration: none;
+}
+
+.sub-title-link:hover {
+  text-decoration: underline;
+}
+
+.search-input-box {
+  width: 80%;
+  min-height: 40px;
+  height: 10%;
+  margin-top: 130px;
+}
+
+.search-input {
+  border: none;
+  outline: none;
+  width: 70%;
+  height: 80%;
+  font: 20px Arial, sans-serif;
+  margin: 5%;
+  letter-spacing: 4px;
+  margin-right: 2vw;
+}
+
+.search-results {
+  width: 80%;
+  height: 55%;
+  margin: 14px;
+  font: 12px Arial, sans-serif;
+}
+
+.toolbar {
+  position: absolute;
+  top: max(16%, 80px);
+}
+
+.phone-drop {
+  float: left;
+  color: black;
+  width: 150px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  border-radius: 5px;
+  margin-right: 30px;
+}
+
+.help-link {
+  float: right;
+  color: black;
+  margin-top: 6px;
+  color: darkblue;
+  font: bold 14px Arial, sans-serif;
+  text-decoration: none;
+}
+
+.help-link:hover {
+  text-decoration: underline;
+}
+
+.table-wrap {
+  height: 80%;
+  width: 80%;
+  overflow-y: scroll;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: lightgrey;
+}
