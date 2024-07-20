@@ -19,12 +19,12 @@ async function request(s) {
 		alert("ERROR: Bad Search");
 		return;
 	}
-	return await fetch(
+	await fetch(
     	"https://jp0ob2gb7a.execute-api.us-east-2.amazonaws.com/API/Search",
     	{
     		method: "POST",
-    		body: s
-    	}).then((r) => console.log(r))
+    		body: ret
+    	}).then((r) => console.log(JSON.parse(r)))
 };
 
 function Search() {

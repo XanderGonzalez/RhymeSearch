@@ -30,7 +30,6 @@ function Translate() {
         className="text-button"
         onClick={() => {
           if (text && !didRun) {
-          	//request(text).then((r) => setIpaText(r));
           	request(text).then((r) => setIpaText(r));
             setDidRun(true);
         }}}
