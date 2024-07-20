@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/RhymeSearch/static/css/main.d9f7b7b8.css",
+    "main.js": "/RhymeSearch/static/js/main.e8872fa9.js",
+    "static/js/453.ede25ca4.chunk.js": "/RhymeSearch/static/js/453.ede25ca4.chunk.js",
+    "index.html": "/RhymeSearch/index.html",
+    "main.d9f7b7b8.css.map": "/RhymeSearch/static/css/main.d9f7b7b8.css.map",
+    "main.e8872fa9.js.map": "/RhymeSearch/static/js/main.e8872fa9.js.map",
+    "453.ede25ca4.chunk.js.map": "/RhymeSearch/static/js/453.ede25ca4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d9f7b7b8.css",
+    "static/js/main.e8872fa9.js"
+  ]
+}
